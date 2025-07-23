@@ -56,5 +56,5 @@
 <h2 id="autor">👤 Autor</h2>
 <p>
   Desenvolvido por <strong>David Waters</strong> <br/>
-  🔗 <a href="www.linkedin.com/in/davidwatersrodrigues" target="_blank">LinkedIn</a>
+  🔗 <a href="https://www.linkedin.com/in/davidwatersrodrigues" target="_blank">LinkedIn</a>
 </p>
