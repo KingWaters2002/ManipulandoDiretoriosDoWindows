@@ -1,23 +1,20 @@
 @echo off
-setlocal enabledelayedexpansion
+:: Define o caminho completo do arquivo de saída (na mesma pasta do .bat)
+set "saida=%~dp0listagem.txt"
 
-echo ==========================================
-echo Buscando arquivos com extensao .pfx no disco C...
-echo Isso pode levar alguns minutos. Aguarde...
-echo ==========================================
+echo Gerando lista de arquivos...
 
-:: Cria/limpa um arquivo temporário para armazenar os resultados
-set "saida=%~dp0pfx_encontrados.txt"
-if exist "%saida%" del "%saida%"
+:: Redireciona toda a listagem para o arquivo de texto
+> "%saida%" (
+    echo Lista de arquivos da pasta: %cd%
+    echo -----------------------------------
 
-:: Busca arquivos .pfx no disco C: e salva a saída
-for /r "C:\" %%f in (*.pfx) do (
-    echo %%f >> "%saida%"
-    echo %%f
+    :: Percorre recursivamente todos os arquivos (inclui subpastas)
+    for /r %%f in (*) do (
+        echo %%f
+    )
 )
 
-echo ==========================================
-echo Busca concluida!
-echo Os arquivos encontrados estao listados em:
-echo %saida%
-pause
+:: Mostra onde a lista foi salva
+echo Lista salva em: %saida%
+exit
