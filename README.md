@@ -3,7 +3,7 @@
 <!-- Sumário -->
 <div align="center">
   <a href="#arquivo1">📄 Buscador de Arquivos</a> |
-  <a href="#arquivo2">📄 Arquivo 2</a> |
+  <a href="#arquivo2">📄 Listagem de Arquivos na Pasta</a> |
   <a href="#autor">👤 Autor</a>
 </div>
 
@@ -29,7 +29,7 @@
 <!-- Arquivo 1 -->
 <h2 id="arquivo1">📄 Buscador de Arquivos</h2>
 <p>
-  Este script surgiu de uma necessidade prática: localizar rapidamente arquivos como bancos de dados 
+  Este script surgiu de uma necessidade prática. Localizar rapidamente arquivos como bancos de dados 
   <strong>Firebird</strong> <code>.fdb</code>, <strong>backups</strong> <code>.bkp</code> ou 
   <strong>certificados digitais modelo A1</strong> <code>.pfx</code> que costumam ficar "perdidos" 
   em meio aos diretórios do sistema do cliente. O objetivo é automatizar essa busca e gerar um arquivo 
@@ -45,9 +45,11 @@
 
 
 <!-- Arquivo 2 -->
-<h2 id="arquivo2">📄 Arquivo 2</h2>
+<h2 id="arquivo2">📄 Listagem de Arquivos na Pasta</h2>
 <p>
-  O segundo script trata da limpeza e organização dos diretórios gerados após os backups. Arquivos antigos são apagados com base em regras definidas, e logs são gerados para manter um histórico das execuções.
+  Este código é simples mas muito útil. Ele gera uma <b>listagem de todos os arquivos presentes em uma pasta</b>, incluindo subpastas e arquivos ocultos. 
+  Foi criado a partir da necessidade de verificar se um determinado arquivo estava localizado em uma pasta específica, que no caso estava bastante desorganizada, pois o cliente costumava salvar PDFs e downloads diversos nela.
+  Com a listagem feita posso usar o <code>Ctrl + F</code> no <code>.txt</code> gerado e ver se há o arquivo que eu desejo 😁.
 </p>
 
 <!-- Eu -->
