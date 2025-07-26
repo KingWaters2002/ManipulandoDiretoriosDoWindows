@@ -42,7 +42,7 @@
   basta abrir o arquivo e substituir a extensão <code>.pfx</code> pela que você deseja. 
   No meu caso, mantenho também versões do script para localizar arquivos <code>.fdb</code> e <code>.bkp</code>.
 </p>
-
+<img src="gifs/BuscadorDeArquivos.gif" alt="Demonstração do projeto" width="600"/>
 
 <!-- Arquivo 2 -->
 <h2 id="arquivo2">📄 Listagem de Arquivos na Pasta</h2>
@@ -51,6 +51,7 @@
   Foi criado a partir da necessidade de verificar se um determinado arquivo estava localizado em uma pasta específica, que no caso estava bastante desorganizada, pois o cliente costumava salvar PDFs e downloads diversos nela.
   Com a listagem feita posso usar o <code>Ctrl + F</code> no <code>.txt</code> gerado e ver se há o arquivo que eu desejo 😁.
 </p>
+<img src="gifs/ListaArquivosDaPasta.gif" alt="Demonstração do projeto" width="600"/>
 
 <!-- Eu -->
 <h2 id="autor">👤 Autor</h2>
