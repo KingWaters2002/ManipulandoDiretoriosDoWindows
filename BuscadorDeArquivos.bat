@@ -7,7 +7,7 @@ set "saida=%~dp0pfxEncontrados.txt"
 if exist "%saida%" del "%saida%"
 
 :: Menu de opções
-color 01
+color 09
 echo ===============================
 echo BUSCA DE ARQUIVOS .PFX NO DISCO C:
 echo ===============================
