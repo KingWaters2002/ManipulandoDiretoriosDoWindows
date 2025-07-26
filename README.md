@@ -59,7 +59,7 @@
   Desenvolvido por <strong>David Waters</strong> <br/>
 <p>
   🔗 <a href="https://www.linkedin.com/in/davidwatersrodrigues">LinkedIn</a><br/>
-  ✉️ <a href="mailto:davidwaters2002@gmail.com">davidwaters2002@gmail.com</a>
+  ✉️ <a href="mailto:davidwaters503@gmail.com">davidwaters503@gmail.com</a>
 </p>
 
 </p>
